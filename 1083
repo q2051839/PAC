@@ -15,6 +15,6 @@ function FindProxyForURL(url, host)
         shExpMatch(url,"*youtube*") ||
        )
     {
-       return "SOCKS 1.2.3.4:1080; DIRECT";
+       return "SOCKS 192.168.1.7:1083; DIRECT";
     }
 }
