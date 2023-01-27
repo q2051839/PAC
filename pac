@@ -1,4 +1,4 @@
-var proxy = 'http 127.0.0.1:1081';
+var proxy = ' HTTP 127.0.0.1:1081' ;
 var rules = [
     [
         [],
