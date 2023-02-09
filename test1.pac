@@ -12,6 +12,7 @@ var FindProxyForURL = function(init, profiles) {
     "+10808": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "SOCKS5 192.168.1.10:10808; SOCKS 192.168.1.10:10808";
+        return "SOCKS5 192.168.1.10:10808; SOCKS 192.168.1.10:10808; PROXY 192.168.1.10:10809；DIRECT";
+
     }
 });
